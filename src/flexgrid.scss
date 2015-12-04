@@ -1,0 +1,40 @@
+@import 'normalize.css';
+@import 'var';
+.caja{
+  background: #007FFF;
+  border: 1px solid maroon;
+  color: white;
+}
+
+.container, .container-fluid{
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-fluid {
+  padding: 0 $gutter-width;
+  max-width: $container-fluid;
+}
+
+.row {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.row.reverse{
+  flex-direction: row-reverse;
+}
+
+.col.reverse{
+  flex-direction: column-reverse;
+}
+
+@import 'xs';
+
+@import 'sm';
+
+@import 'md';
+
+@import 'lg';

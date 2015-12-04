@@ -1,6 +1,5 @@
 @import 'var';
-@import 'mixins';
-@media only screen and (min-width: $screen-sm) {
+@include respond-to(sm) {
   .container {
     width: ($screen-sm+1em);
   }

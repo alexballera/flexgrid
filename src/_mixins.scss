@@ -1,8 +1,8 @@
 @mixin columns-xs {
   @for $i from 1 through $columns {
     .col-xs-#{$i} {
-      max-width: ($container / $columns) * $i;
-      flex-basis: ($container / $columns) * $i;
+      max-width: ($container-fluid / $columns) * $i;
+      flex-basis: ($container-fluid / $columns) * $i;
     }
   }
 }
@@ -17,8 +17,8 @@
 @mixin columns-sm {
   @for $i from 1 through $columns {
     .col-sm-#{$i} {
-      max-width: ($container / $columns) * $i;
-      flex-basis: ($container / $columns) * $i;
+      max-width: ($container-fluid / $columns) * $i;
+      flex-basis: ($container-fluid / $columns) * $i;
     }
   }
 }
@@ -33,8 +33,8 @@
 @mixin columns-md {
   @for $i from 1 through $columns {
     .col-md-#{$i} {
-      max-width: ($container / $columns) * $i;
-      flex-basis: ($container / $columns) * $i;
+      max-width: ($container-fluid / $columns) * $i;
+      flex-basis: ($container-fluid / $columns) * $i;
     }
   }
 }
@@ -49,8 +49,8 @@
 @mixin columns-lg {
   @for $i from 1 through $columns {
     .col-lg-#{$i} {
-      max-width: ($container / $columns) * $i;
-      flex-basis: ($container / $columns) * $i;
+      max-width: ($container-fluid / $columns) * $i;
+      flex-basis: ($container-fluid / $columns) * $i;
     }
   }
 }
@@ -62,15 +62,37 @@
   }
 }
 
+@mixin columns-xl {
+  @for $i from 1 through $columns {
+    .col-xl-#{$i} {
+      max-width: ($container-fluid / $columns) * $i;
+      flex-basis: ($container-fluid / $columns) * $i;
+    }
+  }
+}
+@mixin offset-xl {
+  @for $i from 1 through ($columns )-1{
+    .col-xl-offset-#{$i} {
+      margin-left: ($container-fluid / $columns) * $i;
+    }
+  }
+}
+
 //Breakponits
 @mixin respond-to($media) {
-  @if $media == sm {
-    @media only screen and (min-width: $screen-sm) { @content; }
+  @if $media == xs {
+    @media only screen and (max-width: $screen-xs) { @content; }
+  }
+  @else if $media == sm {
+    @media only screen and (min-width: $screen-xs + (1em/1000)) and (max-width: $screen-sm) { @content; }
   }
   @else if $media == md {
-    @media only screen and (min-width: $screen-md) { @content; }
+    @media only screen and (min-width: $screen-sm + (1em/1000)) and (max-width: $screen-md) { @content; }
   }
   @else if $media == lg {
-    @media only screen and (min-width: $screen-lg) { @content; }
+    @media only screen and (min-width: $screen-md + (1em/1000)) and (max-width: $screen-lg) { @content; }
+  }
+  @else if $media == xl {
+    @media only screen and (min-width: $screen-lg + (1em/1000)) { @content; }
   }
 }

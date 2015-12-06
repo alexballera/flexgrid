@@ -1,9 +1,11 @@
 $columns:12;
-$gutter-width: 2rem;
-$container: 100%;
+$gutter-width: 1%;
+$gutter: 1%;
+$container: 100%-($gutter-width*2);
 $container-fluid: 100%;
 
-$screen-xs: 40em;  //640px
-$screen-sm: 48em;  //768px
-$screen-md: 64em;  //1024px
-$screen-lg: 75em;  //1200px
+$screen-xs: 30em;  //480px
+$screen-sm: 40em;  //640px
+$screen-md: 48em;  //768px
+$screen-lg: 64em;  //1024px
+$screen-xl: 85.375em;  //1366px

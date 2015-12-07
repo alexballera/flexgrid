@@ -1,4 +1,20 @@
 //Grid System
+@mixin columns {
+  @for $i from 1 through $columns {
+    .col-#{$i} {
+      max-width: ($container-fluid / $columns) * $i;
+      flex-basis: ($container-fluid / $columns) * $i;
+    }
+  }
+}
+@mixin offset {
+  @for $i from 1 through ($columns )-1{
+    .col-offset-#{$i} {
+      margin-left: ($container-fluid / $columns) * $i;
+    }
+  }
+}
+
 @mixin columns-xs {
   @for $i from 1 through $columns {
     .col-xs-#{$i} {

@@ -401,9 +401,217 @@ th {
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse; }
 
+.col,
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12,
+.col-offset-1,
+.col-offset-2,
+.col-offset-3,
+.col-offset-4,
+.col-offset-5,
+.col-offset-6,
+.col-offset-7,
+.col-offset-8,
+.col-offset-9,
+.col-offset-10,
+.col-offset-11 {
+  box-sizing: border-box;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  padding: 0 1%; }
+
+.col {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-flex-basis: 0;
+      -ms-flex-preferred-size: 0;
+          flex-basis: 0;
+  max-width: 100%; }
+
+.col-1 {
+  max-width: 8.33333%;
+  -webkit-flex-basis: 8.33333%;
+      -ms-flex-preferred-size: 8.33333%;
+          flex-basis: 8.33333%; }
+
+.col-2 {
+  max-width: 16.66667%;
+  -webkit-flex-basis: 16.66667%;
+      -ms-flex-preferred-size: 16.66667%;
+          flex-basis: 16.66667%; }
+
+.col-3 {
+  max-width: 25%;
+  -webkit-flex-basis: 25%;
+      -ms-flex-preferred-size: 25%;
+          flex-basis: 25%; }
+
+.col-4 {
+  max-width: 33.33333%;
+  -webkit-flex-basis: 33.33333%;
+      -ms-flex-preferred-size: 33.33333%;
+          flex-basis: 33.33333%; }
+
+.col-5 {
+  max-width: 41.66667%;
+  -webkit-flex-basis: 41.66667%;
+      -ms-flex-preferred-size: 41.66667%;
+          flex-basis: 41.66667%; }
+
+.col-6 {
+  max-width: 50%;
+  -webkit-flex-basis: 50%;
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+
+.col-7 {
+  max-width: 58.33333%;
+  -webkit-flex-basis: 58.33333%;
+      -ms-flex-preferred-size: 58.33333%;
+          flex-basis: 58.33333%; }
+
+.col-8 {
+  max-width: 66.66667%;
+  -webkit-flex-basis: 66.66667%;
+      -ms-flex-preferred-size: 66.66667%;
+          flex-basis: 66.66667%; }
+
+.col-9 {
+  max-width: 75%;
+  -webkit-flex-basis: 75%;
+      -ms-flex-preferred-size: 75%;
+          flex-basis: 75%; }
+
+.col-10 {
+  max-width: 83.33333%;
+  -webkit-flex-basis: 83.33333%;
+      -ms-flex-preferred-size: 83.33333%;
+          flex-basis: 83.33333%; }
+
+.col-11 {
+  max-width: 91.66667%;
+  -webkit-flex-basis: 91.66667%;
+      -ms-flex-preferred-size: 91.66667%;
+          flex-basis: 91.66667%; }
+
+.col-12 {
+  max-width: 100%;
+  -webkit-flex-basis: 100%;
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%; }
+
+.col-offset-1 {
+  margin-left: 8.33333%; }
+
+.col-offset-2 {
+  margin-left: 16.66667%; }
+
+.col-offset-3 {
+  margin-left: 25%; }
+
+.col-offset-4 {
+  margin-left: 33.33333%; }
+
+.col-offset-5 {
+  margin-left: 41.66667%; }
+
+.col-offset-6 {
+  margin-left: 50%; }
+
+.col-offset-7 {
+  margin-left: 58.33333%; }
+
+.col-offset-8 {
+  margin-left: 66.66667%; }
+
+.col-offset-9 {
+  margin-left: 75%; }
+
+.col-offset-10 {
+  margin-left: 83.33333%; }
+
+.col-offset-11 {
+  margin-left: 91.66667%; }
+
+.start {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  text-align: start; }
+
+.center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center; }
+
+.end {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-align: end; }
+
+.top {
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+
+.middle {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.bottom {
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+
+.around {
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+
+.between {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.first {
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+      -ms-flex-order: -1;
+          order: -1; }
+
+.last {
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1; }
+
 @media only screen and (max-width: 30em) {
   .container {
-    width: 31em; }
+    width: 38.5em; }
 
   .col-xs,
   .col-xs-1,
@@ -612,9 +820,9 @@ th {
     -webkit-order: 1;
         -ms-flex-order: 1;
             order: 1; } }
-@media only screen and (min-width: 30.001em) and (max-width: 40em) {
+@media only screen and (min-width: 30.001em) and (max-width: 37.5em) {
   .container {
-    width: 41em; }
+    width: 49em; }
 
   .col-sm,
   .col-sm-1,
@@ -823,9 +1031,9 @@ th {
     -webkit-order: 1;
         -ms-flex-order: 1;
             order: 1; } }
-@media only screen and (min-width: 40.001em) and (max-width: 48em) {
+@media only screen and (min-width: 37.501em) and (max-width: 48em) {
   .container {
-    width: 49em; }
+    width: 65em; }
 
   .col-md,
   .col-md-1,
@@ -1036,7 +1244,7 @@ th {
             order: 1; } }
 @media only screen and (min-width: 48.001em) and (max-width: 64em) {
   .container {
-    width: 65em; }
+    width: 81em; }
 
   .col-lg,
   .col-lg-1,
@@ -1247,7 +1455,7 @@ th {
             order: 1; } }
 @media only screen and (min-width: 64.001em) {
   .container {
-    width: 86.375em; }
+    width: 81em; }
 
   .col-xl,
   .col-xl-1,
@@ -1456,5 +1664,22 @@ th {
     -webkit-order: 1;
         -ms-flex-order: 1;
             order: 1; } }
+.caja {
+  background: peru; }
+  @media only screen and (max-width: 30em) {
+    .caja {
+      background: pink; } }
+  @media only screen and (min-width: 30.001em) and (max-width: 37.5em) {
+    .caja {
+      background: maroon; } }
+  @media only screen and (min-width: 37.501em) and (max-width: 48em) {
+    .caja {
+      background: purple; } }
+  @media only screen and (min-width: 48.001em) and (max-width: 64em) {
+    .caja {
+      background: yellow; } }
+  @media only screen and (min-width: 64.001em) {
+    .caja {
+      background: green; } }
 
 /*# sourceMappingURL=flexgrid.css.map */

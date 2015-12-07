@@ -1,7 +1,7 @@
 @import 'var';
 @include respond-to(md) {
   .container {
-    width: ($screen-md+1em);
+    width: ($screen-lg+1em);
   }
   .col-md,
   .col-md-1,

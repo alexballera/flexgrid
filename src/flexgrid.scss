@@ -34,6 +34,8 @@
   flex-direction: column-reverse;
 }
 
+@import 'col';
+
 @import 'xs';
 
 @import 'sm';
@@ -43,3 +45,25 @@
 @import 'lg';
 
 @import 'xl';
+
+.caja{
+  background: peru;
+  @include respond-to(col) {
+    background: peru;
+  }
+  @include respond-to(xs) {
+    background: pink;
+  }
+  @include respond-to(sm) {
+    background: maroon;
+  }
+  @include respond-to(md) {
+    background: purple;
+  }
+  @include respond-to(lg) {
+    background: yellow;
+  }
+  @include respond-to(xl) {
+    background: green;
+  }
+}

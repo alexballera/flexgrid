@@ -3,7 +3,7 @@
 
 @include respond-to(xs) {
   .container {
-    width: ($screen-xs+1em);
+    width: ($screen-sm+1em);
   }
   .col-xs,
   .col-xs-1,

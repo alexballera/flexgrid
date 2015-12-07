@@ -1,11 +1,6 @@
+//Variables
 $columns:12;
 $gutter-width: 1%;
-$gutter: 1%;
+$gutter: 1em;
 $container: 100%-($gutter-width*2);
 $container-fluid: 100%;
-
-$screen-xs: 30em;  //480px
-$screen-sm: 40em;  //640px
-$screen-md: 48em;  //768px
-$screen-lg: 64em;  //1024px
-$screen-xl: 85.375em;  //1366px

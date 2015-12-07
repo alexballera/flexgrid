@@ -1,3 +1,4 @@
+//Grid System
 @mixin columns-xs {
   @for $i from 1 through $columns {
     .col-xs-#{$i} {
@@ -75,25 +76,5 @@
     .col-xl-offset-#{$i} {
       margin-left: ($container-fluid / $columns) * $i;
     }
-  }
-}
-
-//Breakponits
-
-@mixin respond-to($media) {
-  @if $media == xs {
-    @media only screen and (max-width: $screen-xs) { @content; }
-  }
-  @else if $media == sm {
-    @media only screen and (min-width: $screen-xs) { @content; }
-  }
-  @else if $media == md {
-    @media only screen and (min-width: $screen-sm) { @content; }
-  }
-  @else if $media == lg {
-    @media only screen and (min-width: $screen-md) { @content; }
-  }
-  @else if $media == xl {
-    @media only screen and (min-width: $screen-lg) { @content; }
   }
 }

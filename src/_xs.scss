@@ -38,6 +38,7 @@
     flex-basis: 0;
     max-width: 100%;
   }
+  
   @include columns-xs;
 
   @include offset-xs;

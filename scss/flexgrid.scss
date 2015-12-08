@@ -1,0 +1,41 @@
+@import 'variables/var';
+@import 'breakpoints/breakpoints';
+
+.container, .container-fluid{
+  margin-right: auto;
+  margin-left: auto;
+}
+.container {
+  max-width: $container;
+}
+.container-fluid {
+  max-width: $container-fluid;
+}
+
+.row {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.row.reverse{
+  flex-direction: row-reverse;
+}
+
+.col.reverse{
+  flex-direction: column-reverse;
+}
+
+@import 'breakpoints/col';
+
+@import 'breakpoints/xs';
+
+@import 'breakpoints/sm';
+
+@import 'breakpoints/md';
+
+@import 'breakpoints/lg';
+
+@import 'breakpoints/xl';

@@ -1,4 +1,4 @@
-@import 'var';
+@import '../variables/var';
 @include respond-to(sm) {
   .container {
     width: ($screen-md+1em);

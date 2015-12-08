@@ -1,4 +1,4 @@
-@import 'var';
+@import '../variables/var';
 @include respond-to(xl) {
   .container {
     width: ($screen-xl+1em);

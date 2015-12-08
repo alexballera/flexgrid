@@ -1,5 +1,5 @@
-@import 'var';
-@import 'mixins';
+@import '../variables/var';
+@import '../variables/mixins';
 
 @include respond-to(xs) {
   .container {

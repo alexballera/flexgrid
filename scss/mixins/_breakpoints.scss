@@ -1,10 +1,4 @@
-//Breakponits
-//Variables
-$screen-xs: 30em;  //480px
-$screen-sm: 37.5em;  //600px
-$screen-md: 48em;  //768px
-$screen-lg: 64em;  //1024px
-$screen-xl: 80em;  //1280px
+@import '../variables/var';
 
 //Mixins
 @mixin respond-to($media) {

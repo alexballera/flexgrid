@@ -4,9 +4,8 @@
 
 .container {
   max-width: 98%; }
-
-.container-fluid {
-  max-width: 100%; }
+  .container-fluid {
+    max-width: 100%; }
 
 .row {
   box-sizing: border-box;
@@ -170,7 +169,7 @@
 
 @media only screen and (max-width: 30em) {
   .container {
-    width: 38.5em; }
+    width: 31em; }
 
   .col-xs,
   .col-xs-1,
@@ -320,7 +319,7 @@
     order: 1; } }
 @media only screen and (min-width: 30.001em) and (max-width: 37.5em) {
   .container {
-    width: 49em; }
+    width: 38.5em; }
 
   .col-sm,
   .col-sm-1,
@@ -470,7 +469,7 @@
     order: 1; } }
 @media only screen and (min-width: 37.501em) and (max-width: 48em) {
   .container {
-    width: 65em; }
+    width: 49em; }
 
   .col-md,
   .col-md-1,
@@ -620,7 +619,7 @@
     order: 1; } }
 @media only screen and (min-width: 48.001em) and (max-width: 64em) {
   .container {
-    width: 81em; }
+    width: 65em; }
 
   .col-lg,
   .col-lg-1,
@@ -770,7 +769,7 @@
     order: 1; } }
 @media only screen and (min-width: 64.001em) {
   .container {
-    width: 81em; }
+    min-width: 65em; }
 
   .col-xl,
   .col-xl-1,

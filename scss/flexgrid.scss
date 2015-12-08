@@ -1,15 +1,16 @@
 @import 'variables/var';
-@import 'breakpoints/breakpoints';
+@import 'mixins/breakpoints';
 
 .container, .container-fluid{
   margin-right: auto;
   margin-left: auto;
 }
+
 .container {
   max-width: $container;
-}
-.container-fluid {
-  max-width: $container-fluid;
+  &-fluid {
+    max-width: $container-fluid;
+  }
 }
 
 .row {
@@ -28,14 +29,14 @@
   flex-direction: column-reverse;
 }
 
-@import 'breakpoints/col';
+@import 'grid/col';
 
-@import 'breakpoints/xs';
+@import 'grid/xs';
 
-@import 'breakpoints/sm';
+@import 'grid/sm';
 
-@import 'breakpoints/md';
+@import 'grid/md';
 
-@import 'breakpoints/lg';
+@import 'grid/lg';
 
-@import 'breakpoints/xl';
+@import 'grid/xl';

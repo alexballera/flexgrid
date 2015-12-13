@@ -1,6 +1,6 @@
 # Flexgrid: Grid de 12 columnas basadas en Flexboxgrid
 ##Elemento padre (flex container)
-![Alt container](images/container.jpg "Elemento Padre")
+![Container](images/container.jpg "Elemento Padre")
 **.container-fluid**
 width: 100%
 **.container**

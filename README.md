@@ -1,4 +1,4 @@
-# Flexgrid: Grid de 12 columnas basadas en Flexboxgrid
+#Grid de 12 Columnas Usando Flexbox
 ![Flexbox](images/css3-flexbox.jpg "Flexbox")  
 ##Elemento padre (flex container)
 ![Container](images/container.jpg "Elemento Padre")  

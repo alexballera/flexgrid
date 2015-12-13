@@ -1,12 +1,12 @@
 # Flexgrid: Grid de 12 columnas basadas en Flexboxgrid
 ##Elemento padre (flex container)
-![Container](images/container.jpg "Elemento Padre")
-**.container-fluid**
-width: 100%
-**.container**
-width:100% - padding variable
-**.row**
-Es el elemento padre y tiene los siguientes atributos:
+![Container](images/container.jpg "Elemento Padre")  
+**.container-fluid**  
+width: 100%  
+**.container**  
+width:100% - padding variable  
+**.row**  
+Es el elemento padre y tiene los siguientes atributos:  
 ```css
 .row{
 	box-sizing: border-box;

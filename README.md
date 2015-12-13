@@ -66,11 +66,11 @@ $screen-xl: 80em;  (1280px)
 
 Las clases para usar flex-direction son:
 
-**propiedad** ~> clase
-**column** ~> col, col-xs, col-sm, col-md, col-lg, col-xg
-**column-reverse** ~> col reverse
-**row** ~> row (posee las propiedades row y wrap)
-**row-reverse** ~> row reverse
+**propiedad** ~> clase  
+**column** ~> col, col-xs, col-sm, col-md, col-lg, col-xg  
+**column-reverse** ~> col reverse  
+**row** ~> row (posee las propiedades row y wrap)  
+**row-reverse** ~> row reverse  
 
 La clase **row** ya tiene incluida la propiedad wrap, sin embargo para lograr la funcionalidad de wrap es necesario asignarle un width absoluto al item.
 ##Alineación
@@ -80,10 +80,10 @@ La clase **row** ya tiene incluida la propiedad wrap, sin embargo para lograr la
 
 Las clases para usar justify-content son:
 
-**propiedad** ~> clase
-**flex-start** ~> start 
-**flex-end** ~> end
-**center** ~> center
+**propiedad** ~> clase  
+**flex-start** ~> start  
+**flex-end** ~> end  
+**center** ~> center  
 
 ###align-items
 
@@ -91,10 +91,10 @@ Las clases para usar justify-content son:
 
 Las clases para usar justify-content son:
 
-**propiedad** ~> clase
-**flex-start** ~> top- (xs, sm, md, lg, xl).
-**flex-end** ~> bottom- (xs, sm, md, lg, xl).
-**center** ~> middle- (xs, sm, md, lg, xl).
+**propiedad** ~> clase  
+**flex-start** ~> top- (xs, sm, md, lg, xl)  
+**flex-end** ~> bottom- (xs, sm, md, lg, xl)  
+**center** ~> middle- (xs, sm, md, lg, xl)  
 
 ##Distribución del espacio
 
@@ -102,9 +102,9 @@ Las clases para usar justify-content son:
 
 Las clases para usar justify-content son:
 
-**propiedad** ~> clase
-**space-between** ~> between-(xs, sm, md, lg, xl).
-**space-around** ~> around-(xs, sm, md, lg, xl). Preferible xs; probar la q se adapta
+**propiedad** ~> clase  
+**space-between** ~> between-(xs, sm, md, lg, xl)  
+**space-around** ~> around-(xs, sm, md, lg, xl)..
 
 ##Elemento hijo - Items ()
 ###order
@@ -112,6 +112,6 @@ Las clases para usar justify-content son:
 
 Las clases para usar order son:
 
-**propiedad** ~> clase
-**order: -1** ~> first- (xs, sm, md, lg, xl).
-**order: 1** ~> last- (xs, sm, md, lg, xl).
+**propiedad** ~> clase  
+**order: -1** ~> first- (xs, sm, md, lg, xl)  
+**order: 1** ~> last- (xs, sm, md, lg, xl)  

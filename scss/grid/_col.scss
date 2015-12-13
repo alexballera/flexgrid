@@ -48,6 +48,12 @@ text-align: center;
 justify-content: flex-end;
 text-align: end;
 }
+.around{
+justify-content: space-around;
+}
+.between{
+justify-content: space-between;
+}
 .top{
 align-items: flex-start;
 }
@@ -56,12 +62,6 @@ align-items: center;
 }
 .bottom{
 align-items: flex-end;
-}
-.around{
-justify-content: space-around;
-}
-.between{
-justify-content: space-between;
 }
 .first{
 order: -1;

@@ -122,6 +122,6 @@ Las clases para usar order son:
 [CSS-TRICKS](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)  
 [Flexboxgrid](http://flexboxgrid.com/)  
 [W3C](http://www.w3.org/TR/css3-flexbox/)  
-#Licencia
+##Licencia
 [MIT License](https://github.com/alexballera/flexgrid/blob/master/LICENSE)  
 

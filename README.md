@@ -1,5 +1,15 @@
 #Grid de 12 Columnas Usando Flexbox
 ![Flexbox](images/css3-flexbox.jpg "Flexbox")  
+## Overview
+* [Flex Container](#elemento-padre-flex-container)
+* [Items](#elemento-hijo-item)
+* [Breakpoints & Media Queries](#breakpoints-media-queries)
+* [Dirección](#direccion)
+* [Alineación](#alineacion)
+* [Elemento Hijo](#elemento-hijo-items)
+* [Referencias](#referencias)
+* [Licencia](#licencia)
+
 ##Elemento padre (flex container)
 ![Container](images/container.jpg "Elemento Padre")  
 **.container-fluid**  
@@ -19,7 +29,7 @@ Es el elemento padre y tiene los siguientes atributos:
 ```
 ##Elemento hijo (item)
 ![Flex-Items](images/flex-items.jpg "Elemento Hijo")  
-Consideramos las columnas según los siguientes tamaños de Viewport:
+Consideramos las columnas según los siguientes tamaños de Viewport:  
 ```
 xs:30em;	//480px
 sm:37.5em;	//600px
@@ -112,4 +122,6 @@ Las clases para usar order son:
 [CSS-TRICKS](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)  
 [Flexboxgrid](http://flexboxgrid.com/)  
 [W3C](http://www.w3.org/TR/css3-flexbox/)  
+#Licencia
+[MIT License](https://github.com/alexballera/flexgrid/blob/master/LICENSE)  
 

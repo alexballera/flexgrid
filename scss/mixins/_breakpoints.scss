@@ -1,4 +1,9 @@
-@import '../variables/var';
+//Breakpoints
+$screen-xs: 30em;  //480px
+$screen-sm: 37.5em;  //600px
+$screen-md: 48em;  //768px
+$screen-lg: 64em;  //1024px
+$screen-xl: 80em;  //1280px
 
 //Mixins
 @mixin respond-to($media) {

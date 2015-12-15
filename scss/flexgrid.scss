@@ -2,8 +2,7 @@
 @import 'mixins/breakpoints';
 
 .container, .container-fluid{
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
 }
 
 .container {

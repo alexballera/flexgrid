@@ -1,10 +1,5 @@
-@import '../variables/var';
-@import '../mixins/grid';
-
+//Grid para Breakpoint $screen-xs: 30em ~> 480px
 @include respond-to(xs) {
-  .container {
-    width: ($screen-xs+1em);
-  }
   .col-xs,
   .col-xs-1,
   .col-xs-2,
@@ -38,50 +33,38 @@
     flex-basis: 0;
     max-width: 100%;
   }
-  
   @include columns-xs;
-
   @include offset-xs;
-
   .start-xs{
      justify-content: flex-start;
     text-align: start;
   }
-
   .center-xs{
     justify-content: center;
     text-align: center;
   }
-
   .end-xs{
     justify-content: flex-end;
     text-align: end;
   }
-
   .top-xs{
     align-items: flex-start;
   }
-
   .middle-xs{
     align-items: center;
   }
-
   .bottom-xs{
     align-items: flex-end;
   }
-
   .around-xs{
     justify-content: space-around;
   }
-
   .between-xs{
     justify-content: space-between;
   }
-
   .first-xs{
     order: -1;
   }
-
   .last-xs{
     order: 1;
   }

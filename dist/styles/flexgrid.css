@@ -1,6 +1,5 @@
 .container, .container-fluid {
-  margin-right: auto;
-  margin-left: auto; }
+  margin: 0 auto; }
 
 .container {
   max-width: 98%; }
@@ -168,9 +167,6 @@
   order: 1; }
 
 @media only screen and (min-width: 30em) {
-  .container {
-    width: 31em; }
-
   .col-xs,
   .col-xs-1,
   .col-xs-2,
@@ -318,9 +314,6 @@
   .last-xs {
     order: 1; } }
 @media only screen and (min-width: 37.5em) {
-  .container {
-    width: 38.5em; }
-
   .col-sm,
   .col-sm-1,
   .col-sm-2,
@@ -468,9 +461,6 @@
   .last-sm {
     order: 1; } }
 @media only screen and (min-width: 48em) {
-  .container {
-    width: 49em; }
-
   .col-md,
   .col-md-1,
   .col-md-2,
@@ -618,9 +608,6 @@
   .last-md {
     order: 1; } }
 @media only screen and (min-width: 64em) {
-  .container {
-    width: 65em; }
-
   .col-lg,
   .col-lg-1,
   .col-lg-2,
@@ -768,9 +755,6 @@
   .last-lg {
     order: 1; } }
 @media only screen and (min-width: 80em) {
-  .container {
-    min-width: 81em; }
-
   .col-xl,
   .col-xl-1,
   .col-xl-2,

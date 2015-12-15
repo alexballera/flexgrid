@@ -1,4 +1,4 @@
-@import '../variables/var';
+//Grid genérico especial para Breakpoint menores a $screen-xs: 30em ~> 480px
 @import '../mixins/grid';
 .col,
 .col-1,
@@ -33,7 +33,6 @@ flex-grow: 1;
 flex-basis: 0;
 max-width: 100%;
 }
-
 @include columns;
 @include offset;
 .start{

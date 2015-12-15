@@ -1,8 +1,5 @@
-@import '../variables/var';
+//Grid para Breakpoint $screen-lg: 64em ~> 1024px
 @include respond-to(lg) {
-  .container {
-    width: ($screen-lg+1em);
-  }
   .col-lg,
   .col-lg-1,
   .col-lg-2,
@@ -36,50 +33,38 @@
     flex-basis: 0;
     max-width: 100%;
   }
-  
   @include columns-lg;
-
   @include offset-lg;
-
   .start-lg{
      justify-content: flex-start;
     text-align: start;
   }
-
   .center-lg{
     justify-content: center;
     text-align: center;
   }
-
   .end-lg{
     justify-content: flex-end;
     text-align: end;
   }
-
   .top-lg{
     align-items: flex-start;
   }
-
   .middle-lg{
     align-items: center;
   }
-
   .bottom-lg{
     align-items: flex-end;
   }
-
   .around-lg{
     justify-content: space-around;
   }
-
   .between-lg{
     justify-content: space-between;
   }
-
   .first-lg{
     order: -1;
   }
-
   .last-lg{
     order: 1;
   }

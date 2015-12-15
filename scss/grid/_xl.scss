@@ -1,8 +1,5 @@
-@import '../variables/var';
+//Grid para Breakpoint $screen-xl: 80em ~> 1280px
 @include respond-to(xl) {
-  .container {
-    min-width: ($screen-xl+1em);
-  }
   .col-xl,
   .col-xl-1,
   .col-xl-2,
@@ -36,50 +33,38 @@
     flex-basis: 0;
     max-width: 100%;
   }
-  
   @include columns-xl;
-
   @include offset-xl;
-
   .start-xl{
      justify-content: flex-start;
     text-align: start;
   }
-
   .center-xl{
     justify-content: center;
     text-align: center;
   }
-
   .end-xl{
     justify-content: flex-end;
     text-align: end;
   }
-
   .top-xl{
     align-items: flex-start;
   }
-
   .middle-xl{
     align-items: center;
   }
-
   .bottom-xl{
     align-items: flex-end;
   }
-
   .around-xl{
     justify-content: space-around;
   }
-
   .between-xl{
     justify-content: space-between;
   }
-
   .first-xl{
     order: -1;
   }
-
   .last-xl{
     order: 1;
   }

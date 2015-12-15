@@ -2,4 +2,19 @@
   background: blue;
   color: white;
   border: 1px solid red;
+  @include respond-to(xs) {
+    background: yellow;
+  }
+  @include respond-to(sm) {
+    background: pink;
+  }
+  @include respond-to(md) {
+    background: aqua;
+  }
+  @include respond-to(lg) {
+    background: orange;
+  }
+  @include respond-to(xl) {
+    background: purple;
+  }
 }

@@ -2,6 +2,21 @@
   background: blue;
   color: white;
   border: 1px solid red; }
+  @media only screen and (min-width: 30em) {
+    .caja {
+      background: yellow; } }
+  @media only screen and (min-width: 37.5em) {
+    .caja {
+      background: pink; } }
+  @media only screen and (min-width: 48em) {
+    .caja {
+      background: aqua; } }
+  @media only screen and (min-width: 64em) {
+    .caja {
+      background: orange; } }
+  @media only screen and (min-width: 80em) {
+    .caja {
+      background: purple; } }
 
 .container, .container-fluid {
   margin-right: auto;
@@ -51,7 +66,7 @@
 .col-offset-11 {
   box-sizing: border-box;
   flex: 0 0 auto;
-  padding: 0 1%; }
+  padding: 0 1em; }
 
 .col {
   flex-grow: 1;
@@ -172,7 +187,7 @@
 .last {
   order: 1; }
 
-@media only screen and (max-width: 30em) {
+@media only screen and (min-width: 30em) {
   .container {
     width: 31em; }
 
@@ -202,7 +217,7 @@
   .col-xs-offset-11 {
     box-sizing: border-box;
     flex: 0 0 auto;
-    padding: 0 1%; }
+    padding: 0 1em; }
 
   .col-xs {
     flex-grow: 1;
@@ -322,7 +337,7 @@
 
   .last-xs {
     order: 1; } }
-@media only screen and (min-width: 30.001em) and (max-width: 37.5em) {
+@media only screen and (min-width: 37.5em) {
   .container {
     width: 38.5em; }
 
@@ -352,7 +367,7 @@
   .col-sm-offset-11 {
     box-sizing: border-box;
     flex: 0 0 auto;
-    padding: 0 1%; }
+    padding: 0 1em; }
 
   .col-sm {
     flex-grow: 1;
@@ -472,7 +487,7 @@
 
   .last-sm {
     order: 1; } }
-@media only screen and (min-width: 37.501em) and (max-width: 48em) {
+@media only screen and (min-width: 48em) {
   .container {
     width: 49em; }
 
@@ -502,7 +517,7 @@
   .col-md-offset-11 {
     box-sizing: border-box;
     flex: 0 0 auto;
-    padding: 0 1%; }
+    padding: 0 1em; }
 
   .col-md {
     flex-grow: 1;
@@ -622,7 +637,7 @@
 
   .last-md {
     order: 1; } }
-@media only screen and (min-width: 48.001em) and (max-width: 64em) {
+@media only screen and (min-width: 64em) {
   .container {
     width: 65em; }
 
@@ -652,7 +667,7 @@
   .col-lg-offset-11 {
     box-sizing: border-box;
     flex: 0 0 auto;
-    padding: 0 1%; }
+    padding: 0 1em; }
 
   .col-lg {
     flex-grow: 1;
@@ -772,9 +787,9 @@
 
   .last-lg {
     order: 1; } }
-@media only screen and (min-width: 64.001em) {
+@media only screen and (min-width: 80em) {
   .container {
-    min-width: 65em; }
+    min-width: 81em; }
 
   .col-xl,
   .col-xl-1,
@@ -802,7 +817,7 @@
   .col-xl-offset-11 {
     box-sizing: border-box;
     flex: 0 0 auto;
-    padding: 0 1%; }
+    padding: 0 1em; }
 
   .col-xl {
     flex-grow: 1;

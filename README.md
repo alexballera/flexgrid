@@ -65,12 +65,12 @@ $screen-lg: 64em;  (1024px)
 $screen-xl: 80em;  (1280px)
 ```
 ###Media Queries
-```css
-@media screen and (max-width: $screen-xs)
-@media screen and (min-width: $screen-xs + (1em/1000)) and (max-width: $screen-sm)
-@media screen and (min-width: $screen-sm + (1em/1000)) and (max-width: $screen-md)
-@media screen and (min-width: $screen-md + (1em/1000)) and (max-width: $screen-lg)
-@media screen and (min-width: $screen-lg + (1em/1000))
+```javascript
+@media only screen and (min-width: $screen-xs) { @content; }
+@media only screen and (min-width: $screen-sm) { @content; }
+@media only screen and (min-width: $screen-md) { @content; }
+@media only screen and (min-width: $screen-lg) { @content; }
+@media only screen and (min-width: $screen-xl) { @content; }
 ```
 ##Direccion
 ###flex-direction
